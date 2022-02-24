@@ -46,7 +46,7 @@ Sub get_consignee_equipment_from_sap()
     Next i
     
     'Of course change for your file directory
-    Shell "C:\WINCOR-NIXDORF\SAP\FrontEnd\SAPgui\saplogon.exe", 4
+    Shell "C:\XXXXXX\SAP\FrontEnd\SAPgui\saplogon.exe", 4
     Set WshShell = CreateObject("WScript.Shell")
     
     Do Until WshShell.AppActivate("SAP Logon ")

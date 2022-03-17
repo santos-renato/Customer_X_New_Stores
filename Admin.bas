@@ -74,7 +74,7 @@ Sub save_and_create_ticket()
     
     Country = Sheets("Source").Range("A2").Value
     
-    ThisWorkbook.SaveAs ThisWorkbook.Path & "\Aldi_South_New_Stores_Tool_" & Country
+    ThisWorkbook.SaveAs ThisWorkbook.Path & "\Customer_X_New_Stores" & Country
     
     On Error Resume Next
     
